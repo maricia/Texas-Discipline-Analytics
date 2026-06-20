@@ -27,16 +27,25 @@ All data in this repository is synthetic. No real student, campus, employee, or 
 ## Suggested Structure
 
 ```text
-data/
-  synthetic_students.csv
-  synthetic_assessments.csv
-  synthetic_attendance.csv
-  synthetic_ccmr.csv
+Discipline-Dashboard/
 
-docs/
-  metric_definitions.md
-  data_dictionary.md
+├── README.md
 
-dashboard/
-  screenshots/
-  powerbi/
+├── screenshots/
+│   ├── discipline_overview.png
+│   ├── district_comparison.png
+│   ├── ethnicity_analysis.png
+│   ├── trend_analysis.png
+│   └── statewide_comparison.png
+
+├── docs/
+│   ├── data_dictionary.md
+│   ├── metric_definitions.md
+│   └── methodology.md
+
+├── data/
+│   ├── sample_discipline_data.csv
+│   └── source_links.md
+
+└── powerbi/
+└── README.md
