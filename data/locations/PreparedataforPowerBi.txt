@@ -1,0 +1,12 @@
+Step 1: Preparing the New Report in Excel
+Organize the Data:
+Ensure the data is in a tabular format with headers: "User Type," "Component," "Dashboard Name," "Day," "Month," "Year," "User Name," "Hours Active," "Minutes Active," "Session Count," "Count Of Clients."
+Remove any blank rows or unnecessary formatting.
+Replace empty "Hours Active" and "Minutes Active" with 0 or calculate totals where possible (e.g., if Minutes Active is provided, convert to hours: Minutes Active / 60).
+Create a Date Column:
+Add a calculated column in Excel to combine "Day," "Month," and "Year" into a single date (e.g., "Friday, February 21, 2025").
+Formula: =TEXTJOIN(" ", TRUE, Day, Month, Year) or use Power Query to parse into a proper Date field.
+Standardize User Names:
+Ensure consistency (e.g., "Alleman, Maricia" vs. names in your first dataset like "ABEL AVILA"). You may need to map or clean names to match your existing "Name" column.
+Save as Excel Table:
+Select the data, press Ctrl + T, name it "DashboardActivity" (e.g., "DashboardActivity.xlsx").
