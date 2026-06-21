@@ -18,7 +18,7 @@ The dashboards support:
 
 ### District Comparison
 
-![District Comparison](screenshots/district_comparison.png)
+![District Comparison](screenshots/statewide_comparison.png)
 
 ### Discipline Trends
 
