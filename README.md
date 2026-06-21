@@ -1,51 +1,51 @@
-# K-12 Data Dashboard Demo
+# Texas Discipline Analytics Dashboard
 
-A synthetic education analytics project demonstrating how K-12 district data can be organized, analyzed, and presented for decision-making.
+Interactive Power BI dashboards built using publicly available Texas discipline reporting data.
 
-This project uses fake data only. It is designed to show dashboard logic, data modeling, metric definitions, and reporting workflows without exposing student information or confidential district records.
+## Overview
 
-## Planned Dashboard Areas
+This project demonstrates how public education data can be transformed into actionable insights through data modeling, visualization, and reporting.
 
-- Enrollment trends
-- Attendance and chronic absenteeism
-- STAAR-style assessment performance
-- CCMR indicators
-- Graduation/cohort monitoring
-- Campus comparison views
+The dashboards support:
 
-## Goals
+* District comparisons
+* Discipline trend analysis
+* Student group analysis
+* Statewide benchmarking
+* Data-driven decision making
 
-- Demonstrate education data analysis skills
-- Show privacy-safe dashboard design
-- Model common K-12 reporting workflows
-- Provide a portfolio-ready example for analytics and data roles
+## Dashboard Gallery
 
-## Privacy Note
+### District Comparison
 
-All data in this repository is synthetic. No real student, campus, employee, or district-level confidential data is included.
+![District Comparison](screenshots/district_comparison.png)
 
-## Suggested Structure
+### Discipline Trends
 
-```text
-Discipline-Dashboard/
+![Trend Analysis](screenshots/trend_analysis.png)
 
-├── README.md
+### Ethnicity Analysis
 
-├── screenshots/
-│   ├── discipline_overview.png
-│   ├── district_comparison.png
-│   ├── ethnicity_analysis.png
-│   ├── trend_analysis.png
-│   └── statewide_comparison.png
+![Ethnicity Analysis](screenshots/ethnicity_analysis.png)
 
-├── docs/
-│   ├── data_dictionary.md
-│   ├── metric_definitions.md
-│   └── methodology.md
+### Statewide Dashboard
 
-├── data/
-│   ├── sample_discipline_data.csv
-│   └── source_links.md
+![Statewide Comparison](screenshots/statewide_comparison.png)
 
-└── powerbi/
-└── README.md
+## Technologies
+
+* Power BI
+* Power Query
+* DAX
+* Excel
+* Texas Public Education Data
+
+## Data Sources
+
+See data/source_links.md
+
+## Privacy
+
+This project uses publicly available aggregate data only.
+
+No student-level information is included.
